@@ -5,7 +5,7 @@ const searchData = {
     title: "Web Search (البحث على الإنترنت)",
     
     // ================= أولاً: أسئلة الدكتورة مليكة علاء لطفي (28 سؤالاً) =================
-    drMalikaQuestions: [
+    questions: [
         {
             question: "The Arabic index for Reference citations enables you to write search terms in Arabic only.",
             options: ["True", "False"],
@@ -173,11 +173,9 @@ const searchData = {
             options: ["Settings icon", "App launcher icon", "Help menu", "Profile picture"],
             correct: 1,
             hint: "يمكنك فتح واستخدام تطبيق OneDrive السحابي من خلال الضغط على أيقونة مشغل التطبيقات (App launcher icon) المكونة من 9 نقاط في واجهة برامج مايكروسوفت."
-        }
-    ],
+        },
 
     // ================= ثانياً: أسئلة الدكتور أحمد عمارة (29 سؤالاً - الإصدار الثالث المعتمد) =================
-    drOmaraQuestions: [
         {
             question: "Secure shopping websites and e-stores start with the website domain HTTP.",
             options: ["True", "False"],
