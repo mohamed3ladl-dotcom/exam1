@@ -7,7 +7,7 @@ const powerData = {
     // ==========================================
     // الجزء الأول: أسئلة الدكتور أحمد عمارة (67 سؤالاً)
     // ==========================================
-    drAmaraQuestions: [
+    questions: [
         {
             question: "When you create a new blank presentation, begins with a slide whose layout is the title slide.",
             options: ["True", "False"],
@@ -464,13 +464,11 @@ const powerData = {
             options: ["Text box", "Hyperlink", "Eraser", "WordArt"],
             correct: 0,
             hint: "إذا كنت ترغب في إضافة تعليق أو نص توضيحي حول المخطط يمكنك استخدام: مربع نص (Text box)."
-        }
-    ],
+        },
 
     // ===========================================
     // الجزء الثاني: أسئلة الدكتورة مليكة (76 سؤالاً)
     // ===========================================
-    drMalikaQuestions: [
         {
             question: "When you insert a shape to the slide, it appears automatically.",
             options: ["True", "False"],
